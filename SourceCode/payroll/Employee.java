@@ -13,16 +13,17 @@ public class Employee {
 	public PaymentClassification classification; // hourly, salary or commissioned
 
 	public Schedule schedule;
+	public PaymentMethod method;
+
 
 	// public PaymentMethod;
 		// postal address, held by paymaster or bank transfer
 
 
-	public Employee(int empId, String name, String address, Schedule schedule){
+	public Employee(int empId, String name, String address){
 		this.empId = empId;
 		this.name = name;
 		this.address = address;
-		this.schedule = schedule;
 	}
 
 	public boolean isPayDate(LocalDateTime payDate){
@@ -64,7 +65,6 @@ public class Employee {
 		paycheck.grossPay = grossPay;
 		paycheck.deductions = deductions;
 		paycheck.netPay = netPay;
-		// Method of payment to follow
 	}
 
 
