@@ -8,9 +8,9 @@ public class EmployeeTest {
 		int empId = 1010;
 		String name = "Prateek";
 		String address = "Holand";
-		Schedule schedule = Schedule.Monthly;
+		// Schedule schedule = Schedule.Monthly;
 
-		Employee e = new Employee(empId, name, address, schedule);
+		Employee e = new Employee(empId, name, address);
 		
 		System.out.println(e.empId);	
 		System.out.println(e.name);	
