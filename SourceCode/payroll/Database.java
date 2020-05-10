@@ -18,6 +18,18 @@ public class Database {
     public void deleteEmployee(int id) {
         employees.remove(id);
     }
+    public void addUnionMember(int memberId, Employee e) {
+        members.put(memberId, e);
+    }
+
+    public Employee getMember(int memberId) {
+        return members.get(memberId);
+    }
+
+    public void removeUnionMember(int memberId) {
+      members.remove(memberId);
+    }
+
 
     public Collection<Employee> getAllEmployees() {
       return employees.values();
