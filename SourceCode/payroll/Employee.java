@@ -4,11 +4,12 @@ public class Employee {
 	public int empId;
 	public String name;
 	public String address; // Postal address to send paychecks
-	
-	//------------------------To-do------------------------
-	// public PaymentClassification;
-		// hourly, salary or commissioned
+	public PaymentClassification classification; // hourly, salary or commissioned
 
+
+	public Schedule schedule;
+
+	//------------------------To-do------------------------
 	// public PaymentSchedule;
 		// weekly, biweekly or monthly
 
@@ -16,9 +17,11 @@ public class Employee {
 		// postal address, held by paymaster or bank transfer
 
 
-	public Employee(int empId, String name, String address){
+	public Employee(int empId, String name, String address, Schedule schedule){
 		this.empId = empId;
 		this.name = name;
 		this.address = address;
+		this.schedule = schedule;
 	}
+
 }
