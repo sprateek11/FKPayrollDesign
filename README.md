@@ -14,7 +14,7 @@ Snapshot of the output generated for different types of employees
 The fields of the employees and payment details are printed along the amount payed to the employee  
 
 Payments done to employees on: 2020-05-22  
-
+-----------------------------------------------------------------  
 empId:       		1002  
 name:        		Bot2  
 address:     		Home2  
@@ -25,7 +25,7 @@ paying amount:      	712.5
 
 
 Payments done to employees on: 2020-05-29  
-
+-----------------------------------------------------------------  
 empId:       		1002  
 name:        		Bot2  
 address:     		Home2  
@@ -53,7 +53,7 @@ paying amount:      	102000.0
 
 
 Payments done to employees on: 2020-05-31  
-
+-----------------------------------------------------------------  
 empId:       		1001  
 name:        		Bot1  
 address:     		Home1  
